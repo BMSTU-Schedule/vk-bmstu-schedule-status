@@ -1,6 +1,30 @@
 # vk-bmstu-schedule-status
 Display BMSTU week info in VK chat title.
 
+## Installation
+```shell
+go get -u github.com/trubitsyn/vk-bmstu-schedule-status/cmd/vk-bmstu-schedule-status
+```
+
+## Usage
+```
+Usage of vk-bmstu-schedule-status:
+  -chat uint
+        Chat ID
+  -login string
+        VK login
+  -password string
+        VK password
+  -prefix string
+        Chat title prefix
+```
+
+## Testing
+```shell
+go get -t github.com/trubitsyn/vk-bmstu-schedule-status
+go test github.com/trubitsyn/vk-bmstu-schedule-status
+```
+
 ## LICENSE
 ```
 vk-bmstu-schedule-status
